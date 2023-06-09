@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'vocal';
+    src: local('vocal'), url(../../shared/config/fonts/vocal/Vocal-Medium.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Standart CT';
+    src: local('vocal'), url(../../shared/config/fonts/StandardCT) format('woff2');
+}

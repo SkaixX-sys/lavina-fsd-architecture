@@ -1,0 +1,10 @@
+.globalTitle {
+    font-family: 'Vocal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}

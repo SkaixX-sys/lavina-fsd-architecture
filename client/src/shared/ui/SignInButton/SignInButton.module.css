@@ -1,0 +1,19 @@
+.siginInButton {
+    font-family: 'Vocal';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+    mix-blend-mode: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    gap: 10px;
+    background: #FFD600;
+    border-radius: 25px;
+}

@@ -1,0 +1,68 @@
+.callUsNumberWrapper {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    z-index: 1;
+    color: white;
+    opacity: .8;
+}
+
+.callUs {
+    font-family: 'Vocal';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.number {
+    font-family: 'Vocal';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.sliderTitle {
+    font-family: 'Standard CT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.sliderTagline {
+    font-family: 'Vocal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.sliderItem {
+    transition: all 0.5s ease-in-out
+}
+
+.sliderItemImage {
+    display: block;
+    width: 100%;
+}
+
+.sliderCaption {
+    left: 10%;
+    right: 60%;
+    text-align: left;
+    transition: all 0.5s ease-in-out;
+}
