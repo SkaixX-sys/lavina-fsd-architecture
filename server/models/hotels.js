@@ -8,6 +8,10 @@ const Hotels = sequelize.define('hotels', {
     description: { type: DataTypes.STRING, allowNull: false },
     image: { type: DataTypes.STRING, allowNull: false },
     isFullBusy: { type: DataTypes.BOOLEAN, allowNull: false },
+    weekendTourPrice: {type: DataTypes.DECIMAL(7,2), allowNull: false},
+    weekdayTourPrice: {type: DataTypes.DECIMAL(7,2), allowNull: false},
+    threeWeekendsTourPrice: {type: DataTypes.DECIMAL(7,2), allowNull: false},
+    threeWeekdaysTourPrice: {type: DataTypes.DECIMAL(7,2), allowNull: false},
 })
 
 module.exports = Hotels

@@ -14,7 +14,6 @@ class typeController {
             const Item = await Model.create({ item, relateTo })
             return res.json(Item)
         } catch (e) {
-            // return res.send(e)
             return next(ApiError.internal("Ошибка сервера"))
         }
     }
