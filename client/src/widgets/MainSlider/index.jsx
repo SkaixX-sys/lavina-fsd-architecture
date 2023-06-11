@@ -9,9 +9,9 @@ import {
   sliderItem,
   sliderItemImage,
   sliderCaption,
-} from "./MainSlider.module.css";
+} from "./index.module.css";
 
-function MainSlider({ swiperData }) {
+function index({ swiperData }) {
   if (!swiperData) {
     swiperData = [
       {
@@ -57,4 +57,4 @@ function MainSlider({ swiperData }) {
   );
 }
 
-export default MainSlider;
+export default index;

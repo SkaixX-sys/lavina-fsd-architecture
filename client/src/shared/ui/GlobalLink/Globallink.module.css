@@ -6,3 +6,8 @@
     line-height: 120%;
     color: #000000;
 }
+.arrow {
+    width: 17px;
+    box-sizing: border-box;
+    height: 6px;
+}

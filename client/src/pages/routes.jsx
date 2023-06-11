@@ -13,7 +13,7 @@ import {
   NEWS_LIST_ROUTER,
   PASS_PRICE_LIST_ROUTER,
   REGISTRATION_ROUTER,
-//   ROOM_PAGE_ROUTER,
+  //   ROOM_PAGE_ROUTER,
   RULES_LIST_ROUTER,
   SCHEME_COMPLEX_ROUTER,
   SCHEME_ROAD_ROUTER,
@@ -21,7 +21,9 @@ import {
   SERVICES_LIST_ROUTER,
   TOUR_PRICE_LIST_ROUTER,
   WORKING_MODE_ROUTER,
-} from "./consts";
+  REVIEWS_LIST_ROUTER,
+  MAIN_ROUTER,
+} from "../shared/consts/routerconsts";
 import Auth from "./Auth/Auth";
 import Admin from "./Admin/Admin";
 import AlbumList from "./AlbumList/AlbumList";
@@ -43,6 +45,8 @@ import WorkingMode from "./WorkingMode/WorkingMode";
 import AlbumPage from "./AlbumPage/AlbumPage";
 import ServiceList from "./ServiceList/ServiceList";
 import InfoList from "./InfoList/InfoList";
+import ReviewList from "./ReviewList/ReviewList";
+import Main from "./Main/Main";
 
 export const notAuthRoutes = [
   {
@@ -65,6 +69,14 @@ export const publicRoutes = [
   {
     path: ALBUMS_LIST_ROUTER,
     Component: AlbumList,
+  },
+  {
+    path: MAIN_ROUTER,
+    Component: Main,
+  },
+  {
+    path: REVIEWS_LIST_ROUTER,
+    Component: ReviewList,
   },
   {
     path: SERVICES_LIST_ROUTER,
@@ -94,10 +106,10 @@ export const publicRoutes = [
     path: HOTEL_PAGE_ROUTER + "/:type",
     Component: HotelPage,
   },
-//   {
-//     path: ROOM_PAGE_ROUTER + "/:id",
-//     Component: RoomPage,
-//   },
+  //   {
+  //     path: ROOM_PAGE_ROUTER + "/:id",
+  //     Component: RoomPage,
+  //   },
   {
     path: INSTRUCTORS_PRICE_LIST_ROUTER,
     Component: InstructorPrice,

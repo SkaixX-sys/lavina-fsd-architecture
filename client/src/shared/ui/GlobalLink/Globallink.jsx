@@ -1,10 +1,12 @@
-import React from 'react'
-import {globallink} from './Globallink.module.css'
+import React from "react";
+import { globallink, arrow } from "./Globallink.module.css";
 
-function Globallink({text}) {
+function Globallink({ text }) {
   return (
-    <div className={globallink}>{text}</div>
-  )
+    <div className={globallink}>
+      <img className={arrow} src="./globallinkArrow/arrowToButton.png" /> {text}
+    </div>
+  );
 }
 
-export default Globallink
+export default Globallink;

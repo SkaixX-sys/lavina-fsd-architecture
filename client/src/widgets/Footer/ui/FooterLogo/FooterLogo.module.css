@@ -1,0 +1,17 @@
+.footerLogo {
+    font-family: 'Vocal';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 80%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.logoIcon {
+    height: 25px;
+    width: 67px;
+}

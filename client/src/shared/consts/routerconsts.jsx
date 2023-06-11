@@ -23,5 +23,5 @@ export const SCHEME_ROAD_ROUTER = INFOS_LIST_ROUTER + "/roadmap";
 export const SCHEME_COMPLEX_ROUTER = INFOS_LIST_ROUTER + "/complexmap";
 export const SCHEME_SLOPE_ROUTER = INFOS_LIST_ROUTER + "/slopemap";
 export const WORKING_MODE_ROUTER = INFOS_LIST_ROUTER + "/workingmode";
-export const ALBUMS_LIST_ROUTER =INFOS_LIST_ROUTER+  "/albums";
+export const ALBUMS_LIST_ROUTER = INFOS_LIST_ROUTER + "/albums";
 export const ALBUM_PAGE_ROUTER = ALBUMS_LIST_ROUTER;

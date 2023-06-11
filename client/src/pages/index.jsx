@@ -1,12 +1,12 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import React, { useContext } from 'react'
 import { observer } from 'mobx-react-lite';
-import { MAIN_ROUTER } from './consts';
+import { MAIN_ROUTER } from '../shared/consts/routerconsts';
 import { adminRoutes, notAuthRoutes, publicRoutes } from './routes';
 
 const AppRouter = observer(() => {
-  const isAuth = true
-  const isAdmin = true
+  const isAuth = false
+  const isAdmin = false
   return (
     <Routes>
       {publicRoutes.map(({ path, Component }) =>

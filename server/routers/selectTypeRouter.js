@@ -1,4 +1,4 @@
-const controller = require('../controllers/typeController')
+const controller = require('../controllers/selectTypeController')
 const Router = require('express')
 const router = new Router;
 const authenticateToken = require('../middlewares/authenticateToken')

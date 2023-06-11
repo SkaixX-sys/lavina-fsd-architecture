@@ -1,5 +1,5 @@
 const ApiError = require('../Error/ApiError')
-const Model = require('../models/dataTypes')
+const Model = require('../models/selectTypes')
 
 class typeController {
     async create(req, res, next) {
