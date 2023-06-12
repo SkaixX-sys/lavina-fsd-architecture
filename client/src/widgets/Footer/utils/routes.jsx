@@ -105,4 +105,4 @@ import {
     },
   ];
   
-   export default {infoList, serviceList, info, social, review, service}
+   export default {infoList, serviceList, info, social, review, service, main}

@@ -123,7 +123,7 @@ export const publicRoutes = [
     Component: PassPrice,
   },
   {
-    path: NEWS_LIST_ROUTER,
+    path: NEWS_LIST_ROUTER + '/:id',
     Component: NewsList,
   },
   {

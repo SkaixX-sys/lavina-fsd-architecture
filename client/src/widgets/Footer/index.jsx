@@ -1,20 +1,20 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 import FooterLogo from "./ui/FooterLogo/FooterLogo";
 import CopyRight from "./ui/CopyRight/CopyRight";
 
 import FooterCol from "./ui/FooterCol/FooterCol";
 
-import route from "./consts/routes";
+import route from "./utils/routes";
 
 import { footerwrapper,logo } from "./index.module.css";
 
 function index() {
   return (
-    <Row className={footerwrapper}>
+    <div className={footerwrapper}>
       <Col xs={3} className={logo}>
-        <FooterLogo />
+        <FooterLogo link={route.main} />
       </Col>
       <Col xs={8}>
         <Row>
@@ -41,7 +41,7 @@ function index() {
           </Col>
         </Row>
       </Col>
-    </Row>
+    </div>
   );
 }
 

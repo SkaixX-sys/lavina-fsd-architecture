@@ -1,7 +1,9 @@
 .footerwrapper {
     background: #EAEAEA;
     padding:  50px 100px 50px 100px;
+    display: flex;
     justify-content: center;
+    justify-self: center;
 }
 
 .logo {

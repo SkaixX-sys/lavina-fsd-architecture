@@ -4,8 +4,6 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 120%;
-    display: flex;
-    align-items: center;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     text-align: left;

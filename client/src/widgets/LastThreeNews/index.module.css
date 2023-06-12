@@ -1,0 +1,8 @@
+.itemWrapper {
+    display: flex;
+    justify-content: center;
+}
+.newsWrapperTitle {
+    margin-bottom: 80px;
+    margin-top: 200px;
+}

@@ -1,0 +1,8 @@
+.serviceItemImage {
+    width: 100%;
+    height: 100%;
+}
+.serviceItemImageWrapper {
+    max-width: 480px;
+    max-height: 350px;
+}

@@ -3,7 +3,7 @@ import {globalTitle} from './GlobalTitle.module.css'
 
 function GlobalTitle({title}) {
   return (
-    <div className=''>{title}</div>
+    <div className={globalTitle}>{title}</div>
   )
 }
 

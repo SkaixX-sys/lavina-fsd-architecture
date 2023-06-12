@@ -1,11 +1,12 @@
 import React from "react";
 import { globallink, arrow } from "./Globallink.module.css";
+import { NavLink } from "react-router-dom";
 
-function Globallink({ text }) {
+function Globallink({ text,link }) {
   return (
-    <div className={globallink}>
-      <img className={arrow} src="./globallinkArrow/arrowToButton.png" /> {text}
-    </div>
+    <NavLink to={link} className={globallink}>
+      <img className={arrow} src="./src/shared/ui/GlobalLink/globallinkArrow/arrowToButton.png" /> {text}
+    </NavLink>
   );
 }
 

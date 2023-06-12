@@ -1,0 +1,33 @@
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsImage {
+    width: 100%;
+    height: 100%;
+
+}
+
+.newsImageWrapper {
+    width: 400px;
+    height: 300px;
+    max-width: 435px;
+    max-height: 324px;
+}
+
+.textWrapper {
+    width: 80%;
+}
+
+.newsTitle {
+    margin-top: 24px;
+}
+.newsDescription {
+    margin-top: 32px;
+}
+.newsLink {
+    margin-top: 32px;
+}
