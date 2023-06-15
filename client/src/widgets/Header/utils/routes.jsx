@@ -5,6 +5,7 @@ import {
   LOGIN_ROUTER as login,
   REGISTRATION_ROUTER as registration,
   MAIN_ROUTER as main,
+  ADMIN_ROUTER as admin,
 } from "../../../shared/consts/routerconsts";
 
 const nav = [
@@ -22,4 +23,4 @@ const nav = [
   },
 ];
 
- export default {nav, login, registration, main}
+export default { nav, login, registration, main, admin };

@@ -79,7 +79,7 @@ export const publicRoutes = [
     Component: ReviewList,
   },
   {
-    path: SERVICES_LIST_ROUTER,
+    path: SERVICES_LIST_ROUTER + '/:id',
     Component: ServiceList,
   },
   {

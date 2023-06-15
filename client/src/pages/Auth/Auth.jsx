@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import AuthFrom from "./../../widgets/AuthForm/index";
 
 function Auth() {
   return (
-    <div>Auth</div>
-  )
+    <>
+      <AuthFrom />
+    </>
+  );
 }
 
-export default Auth
+export default Auth;

@@ -3,7 +3,7 @@ import route from "../../utils/routerconst";
 import ServiceItem from "../../ui/ServiceItem/ServiceItem";
 import GlobalTitle from "./../../../../shared/ui/GlobalTitle/GlobalTitle";
 import { serviceListWrapper } from "./MainServicesList.module.css";
-import { Col } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 
 function MainServicesList() {
   const services = [
@@ -71,8 +71,8 @@ function MainServicesList() {
   const column2Items = sortedItems.filter((item) => item.id % 2 === 0);
 
   return (
-    <div className={serviceListWrapper}>
-      <Col xs={6}>
+    <Row className={serviceListWrapper}>
+      <Col xs={4}>
         {column1Items.map((item) => (
           <div key={item.id}>
             <ServiceItem
@@ -85,7 +85,8 @@ function MainServicesList() {
           </div>
         ))}
       </Col>
-      <Col xs={6}>
+      <Col xs={1}></Col>
+      <Col xs={4}>
         <GlobalTitle title={"Познай Лавину"} />
         {column2Items.map((item) => (
           <div key={item.id}>
@@ -99,7 +100,7 @@ function MainServicesList() {
           </div>
         ))}
       </Col>
-    </div>
+    </Row>
   );
 }
 
